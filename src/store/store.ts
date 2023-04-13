@@ -2,7 +2,7 @@ import { Actions, AppState, Observer } from "../types/store";
 import { reducer } from "./reducer";
 
 export let appState: AppState = {
-  character: [],
+  characters: [],
 };
 
 let observers: Observer[] = [];
